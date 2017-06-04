@@ -1,0 +1,155 @@
+/* header-wrapper */
+.wrap-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    height:20%;
+    position:fixed;
+    color: white;
+    background: #8892BF;
+    box-shadow: 0 .25em .25em rgba(0,0,0,.1);
+    border-bottom: solid 1px black;
+    transition:0.5s;
+}
+.margin-handler {
+  width: 100%;
+  display: flex;
+  height:200px;
+}
+.logo-header {
+    width: 40%;
+}
+.logo-header a {
+  transition:0.5s;
+  display: block;
+  color:white;
+  font-size: 2.75em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 24px;
+  font-weight: bold;
+  text-decoration:none;
+}
+.navbar-header {
+    flex: 30%;
+    display:flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+.navbar-header a {
+  transition:0.5s;
+    color: white;
+    margin-right:24px;
+    font-size: 1.5em;
+}
+/********************************************
+**** hamburger navbar
+********************************************/
+.hamburger-header {
+    flex: 20%;
+}
+
+.dropbtn {
+    cursor: pointer;
+    float: right;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+.bar1, .bar2, .bar3 {
+  pointer-events: none;
+  width: 45px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 1s;
+}
+
+.change .dropbtn {
+      margin-top: 20px;
+ }
+.change .bar1 {
+    -moz-transform: rotate(-45deg) translate(-9px, 6px) ;
+    -ms-transform: rotate(-45deg) translate(-9px, 6px) ;
+    -o-transform: rotate(-45deg) translate(-9px, 6px) ;
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+    background-image:url("../img/sword.png");
+    background-size:100% 100%;
+    height:25px;
+    background-color:transparent;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -moz-transform: rotate(45deg) translate(-8px, -8px) ;
+    -ms-transform: rotate(45deg) translate(-8px, -8px) ;
+    -o-transform: rotate(45deg) translate(-8px, -8px) ;
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+    background-image: url("../img/sword.png");
+    background-size: 100% 100%;
+    height: 25px;
+    position: absolute;
+    top: 50px;
+    margin-left: -10px;
+    background-color:transparent;
+}
+
+.dropdown {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropdown-content {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 60px;
+}
+
+.dropdown-content a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+
+/********************************************
+**** Javascript
+********************************************/
+.show {
+  width: 20%;
+}
+.move {
+    margin-left:-20%;
+}
+
+.scroll-header {
+    height: 10%;
+    width:100%;
+    position:fixed;
+}
+
+.scroll-header  .logo-header a {
+  font-size: 1.5em;
+}
+.scroll-header  .navbar-header a {
+  font-size: 1em;
+}
+
+
+.scroll-header .dropbtn {
+    margin-top: 5px;
+}

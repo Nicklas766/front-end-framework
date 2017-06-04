@@ -1,0 +1,14 @@
+html, body {
+    margin:0;
+    padding:0;
+    background:#20120F;
+}
+
+/* Wrapper of everything */
+.wrap-all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transition: 1s;
+    width:100%;
+}

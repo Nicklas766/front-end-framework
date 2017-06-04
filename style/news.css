@@ -1,0 +1,17 @@
+/* news-wrapper */
+.news-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:100%;
+    height:100%;
+    border-bottom: solid 1px black;
+    background-image: url('../img/sunset.jpg');
+    background-attachment: fixed;
+}
+.news {
+    height: 50px;
+    border:2px solid #CCC;
+    flex: 0 0 98%;
+    margin: 0 1% 10px;
+}
