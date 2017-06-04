@@ -1,0 +1,36 @@
+.login-wrapper {
+    height: 100%;
+    flex: 0 0 100%;
+    text-align: center;
+    background: rgb(33,21,16);
+    box-shadow: inset 0px -1px 19px 7px rgba(0,0,0,0.75);
+    color: orange;
+    border-radius: 0.3em;
+    height:500px;
+    background-image:url("../img/fire.gif");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.login-widget {
+    width:30%;
+    margin:auto;
+    text-align: center;
+    color: orange;
+    font-size: 1.5em;
+    margin-top:24px;
+    box-shadow: inset 0px -1px 10px 7px white;
+    border: solid 5px rgb(33,21,16);
+}
+.login-widget h3 {
+}
+
+.login-widget input {
+    width:80%;
+    padding:25px;
+    border:none;
+    margin-bottom:24px;
+    background:lightgrey;
+    font-size:24px;
+}

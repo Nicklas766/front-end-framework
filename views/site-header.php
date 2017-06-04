@@ -1,8 +1,9 @@
+<div class="header-wrapper">
 <div class="wrap-header" id="wrap-header">
 
   <!-- Log for header -->
   <div class="logo-header">
-    <a href="hello.php">LogoText</a>
+    <a href="index.php">LogoText</a>
 
   </div>
 
@@ -13,7 +14,7 @@
     <a href="hello.php">About</a>
     <a href="hello.php">News</a>
 
-    <button> Login </button>
+    <a href="login.php"><button> Login </button></a>
   </div>
 
   <!-- Hamburger for header -->
@@ -27,5 +28,4 @@
   </div>
 </div>
 
-<div class="margin-handler" id="margin-handler">
-  </div>
+ </div>

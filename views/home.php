@@ -11,8 +11,7 @@
       <h1> Wizard </h1>
       </div>
   </div>
-<div style="flex:1%">
-  </div>
+
   <div class="content-widget">
     <div class="img-container">
     <div class="imger" style="background-image: url('img/knight.png');">

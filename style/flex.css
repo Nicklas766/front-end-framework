@@ -2,16 +2,31 @@
     height: 200px;
     padding: 10px;
     box-sizing: border-box;
-    border:2px solid #CCC;
+    border: 1px solid #ccc;
     flex: 0 0 98%;
-    margin: 0 1% 10px;
+    margin: 0 0.5% 10px 7px;
     text-align:center;
+    transition:0.5s;
+    border-radius: 0.5em;
+    opacity: 0.9;
+    background:white;
+        background-image: url(../img/castle.jpg);
+}
+
+.widget a {
+    font-size:2em;
+    color:orange;
+}
+
+.widget:hover {
+    opacity:1;
 }
 
 /* Media queries for .widget */
 @media (min-width: 500px) {
     .widget {
         flex: 0 0 48.0%;
+        margin: 0 0.5% 10px 7px;
     }
 }
 
@@ -19,4 +34,20 @@
     .widget {
         flex: 0 0 31.3333333333333%;
     }
+    .widget:hover {
+        transform: scale(1.05);
+        margin: 0 0.2% 1px 10px;
+    }
 }
+
+
+    @media (min-width: 980px) {
+        .widget {
+            flex: 0 0 16.6667%;
+            margin: 1% 1% 16px;
+        }
+        .widget:hover {
+            transform: scale(1.1);
+            margin: 0 2% 10px;
+        }
+    }

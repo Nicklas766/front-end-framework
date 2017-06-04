@@ -5,15 +5,19 @@
   </div>
 
   <div class="widget">
-    <h1> hello </h1>
+      <p> latest update 2017-03-10 </p>
+      <a href=""> Title </a>
   </div>
 
   <div class="widget">
-    <h1> hello </h1>
+    <p> latest update 2017-03-10 </p>
+    <a href=""> Title </a>
+
   </div>
 
   <div class="widget">
-    <h1> hello </h1>
+    <p> latest update 2017-03-10 </p>
+    <a href=""> Title </a>
   </div>
 
 </div>
