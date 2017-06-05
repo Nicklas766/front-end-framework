@@ -34,3 +34,17 @@
     background:lightgrey;
     font-size:24px;
 }
+
+.login-button {
+    border:solid 1px white;
+    text-decoration:none;
+    padding: 10px;
+    border-radius:.3em;
+    transition:1s;
+    margin-left:20px;
+}
+
+.login-button:hover {
+    background:beige;
+    color:black;
+}

@@ -10,6 +10,7 @@
  <link rel="stylesheet" type="text/css" href="style/footer.css">
  <link rel="stylesheet" type="text/css" href="style/mediaqueries.css">
   <link rel="stylesheet" type="text/css" href="style/login.css">
+  <link rel="stylesheet" type="text/css" href="style/featured.css">
  <script src="js/hamburger.js"></script>
  <script src="js/header.js"></script>
 </head>

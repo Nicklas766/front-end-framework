@@ -14,7 +14,7 @@
     <a href="hello.php">About</a>
     <a href="hello.php">News</a>
 
-    <a href="login.php"><button> Login </button></a>
+    <a class="login-button" href="login.php">Login</a>
   </div>
 
   <!-- Hamburger for header -->
