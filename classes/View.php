@@ -20,13 +20,13 @@ class View
       }
 
       // Include all views. But set $pages in middle
-      include "views/header.php";
-      include "views/site-header.php";
+      include "views/base/header.php";
+      include "views/base/site-header.php";
 
       foreach ($pages as $value) {
           include "views/$value.php";
       }
 
-      include "views/footer.php";
+      include "views/base/footer.php";
     }
 }

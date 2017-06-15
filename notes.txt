@@ -1,0 +1,5 @@
+Se till att du gör CSS koden ren.
+
+Gå igenom den, finns det något onödigt? Används ens propertyn till klassen?
+
+Gör koden tydligare.

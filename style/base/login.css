@@ -18,10 +18,11 @@
     height: 100%;
     flex: 0 0 100%;
     text-align: center;
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, #34e89e, #0f3443) repeat scroll 0 0;
+    background: #113D47;
     color: orange;
-    border-radius: 0.3em;
-    height: 700px;
+    background-image: url('../../img/typing.jpg');
+    background-attachment: fixed;
+    min-height:900px;
 }
 
 @-webkit-keyframes fade-in {
@@ -52,6 +53,11 @@
     transition:0.2s;
 }
 
+.login-widget a {
+    color: orange;
+    font-size: 15px;
+}
+
 .login-widget input:focus,
 .login-widget button:hover {
     box-shadow: inset 0px -1px 5px 1px rgba(0,0,0,0.75);
@@ -69,4 +75,5 @@
     padding: 10px;
     width: 65%;
     color:white;
+
 }

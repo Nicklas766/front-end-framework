@@ -10,10 +10,10 @@
     }
     .bar1, .bar2, .bar3 {
         pointer-events: none;
-        width: 80px;
-        height: 7px;
+        width: 70px;
+        height: 6px;
         background-color: white;
-        margin: 10px 0;
+        margin: 7px 0;
         transition: 1s;
     }
 

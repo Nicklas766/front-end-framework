@@ -8,9 +8,9 @@
         <a class="featured-button" href="login.php">Start Journey</a>
     </div>
 
-  <div class="news">
+  <div class="news-container">
     <h1> Latest news </h1>
-  </div>
+
 
   <div class="widget">
       <p> latest update 2017-03-10 </p>
@@ -27,5 +27,7 @@
     <p> latest update 2017-03-10 </p>
     <a href=""> Title </a>
   </div>
+</div>
 
+  <div class="arrow-widget">⮟</div>
 </div>

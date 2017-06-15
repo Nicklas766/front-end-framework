@@ -1,14 +1,14 @@
-html, body {
-    margin:0;
-    padding:0;
-    background:#20120F;
-}
 
-/* Wrapper of everything */
-.wrap-all {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    transition: 1s;
-    width:100%;
-}
+/*Main parts*/
+@import url("base/base.css");
+@import url("base/header.css");
+@import url("base/news.css");
+@import url("base/flex.css");
+@import url("base/content.css");
+@import url("base/footer.css");
+
+/*Extra parts*/
+@import url("mediaqueries.css");
+@import url("base/login.css");
+@import url("featured.css");
+@import url("arrowdown.css");

@@ -1,5 +1,5 @@
-<div class="header-wrapper">
-<div class="wrap-header" id="wrap-header">
+<div class="header-default"></div>
+<div class="wrapper header" id="header">
 
   <!-- Log for header -->
   <div class="logo-header">
@@ -20,12 +20,10 @@
   <!-- Hamburger for header -->
   <div class="hamburger-header">
     <!-- hamburger -->
-    <div class="dropbtn" id="menu" onclick="mySwitcher(this);">
+    <div class="hamburgerbtn" id="menu" onclick="mySwitcher(this);">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
     </div>
   </div>
 </div>
-
- </div>

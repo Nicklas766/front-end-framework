@@ -7,7 +7,7 @@ function mySwitcher(x) {
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
+    if (!event.target.matches('.hamburgerbtn')) {
 
         var dropdowns = document.getElementsByClassName("dropdown-content");
         var i;
